@@ -1,49 +1,105 @@
+/* General body styling */
 body {
+    /* Use a clean, modern font with fallbacks */
     font-family: Arial, sans-serif;
+
+    /* Apply a gradient background from purple to blue */
     background: linear-gradient(to right, #6a11cb, #2575fc);
+
+    /* Text color set to white for contrast against the gradient */
     color: white;
+
+    /* Center all text elements by default */
     text-align: center;
+
+    /* Reset default margin and padding */
     margin: 0;
     padding: 0;
 }
 
+/* Styling for the form container */
 .container {
+    /* Fixed width for consistent design */
     width: 350px;
+
+    /* Background color of the form (white for contrast) */
     background: white;
+
+    /* Text color inside the container */
     color: black;
+
+    /* Padding inside the container for spacing */
     padding: 20px;
+
+    /* Center the container on the page with auto margin */
     margin: 100px auto;
+
+    /* Smooth rounded corners */
     border-radius: 10px;
+
+    /* Drop shadow to create depth and separation from background */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Styling for the heading */
 h2 {
+    /* Add space below the heading */
     margin-bottom: 20px;
 }
 
+/* Input field styling */
 input {
+    /* Full width to match container size */
     width: 100%;
+
+    /* Internal padding for comfort */
     padding: 10px;
+
+    /* Space between input fields */
     margin: 10px 0;
+
+    /* Light gray border for input fields */
     border: 1px solid #ccc;
+
+    /* Slightly rounded corners */
     border-radius: 5px;
 }
 
+/* Styling for the submit button */
 input[type="submit"] {
+    /* Blue background for the button */
     background: #2575fc;
+
+    /* White text for contrast */
     color: white;
+
+    /* No border for a clean look */
     border: none;
+
+    /* Change cursor to pointer to indicate interactivity */
     cursor: pointer;
+
+    /* Slightly larger font size for prominence */
     font-size: 16px;
 }
 
+/* Hover effect for the submit button */
 input[type="submit"]:hover {
+    /* Darker blue when hovered to indicate interactivity */
     background: #1a5ed8;
 }
 
+/* Styling for error messages */
 .error {
+    /* Red color to indicate error clearly */
     color: red;
+
+    /* Slightly smaller font size for secondary text */
     font-size: 14px;
+
+    /* Display as a block element to occupy full width */
     display: block;
+
+    /* Space between error messages */
     margin-bottom: 10px;
 }
